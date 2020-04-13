@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>480</width>
+    <height>640</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>480</width>
+    <height>640</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow
+{
+	background-color: #999;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_4">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QRadioButton" name="rbImg">
+        <property name="styleSheet">
+         <string notr="true">QRadioButton
+{
+	background-color: #222;
+	color: #fff;
+}
+
+</string>
+        </property>
+        <property name="text">
+         <string>Detect from Img</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="rbCam">
+        <property name="styleSheet">
+         <string notr="true">QRadioButton
+{
+	background-color: #222;
+	color: #fff;
+}
+
+</string>
+        </property>
+        <property name="text">
+         <string>Computer vision RT</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="styleSheet">
+         <string notr="true">QLabel
+{
+	background-color: #222;
+	color: #eb34a2;
+}
+</string>
+        </property>
+        <property name="text">
+         <string>Select img</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBox">
+        <property name="styleSheet">
+         <string notr="true">QComboBox
+{
+	background-color: #222;
+	color: #d3d3d3;
+}
+
+QComboBox::hover
+{
+	background-color: #34eb55;
+	color: #000;
+}</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit">
+        <property name="styleSheet">
+         <string notr="true">QPlainTextEdit
+{
+	background-color: #212;
+	color: #eb34a2;
+}</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="btnCls">
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+	background-color: #222;
+	color: #d3d3d3;
+}
+QPushButton::hover
+{
+	background-color: #34eb55;
+	color: black;
+}
+
+</string>
+        </property>
+        <property name="text">
+         <string>Clear</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnRun">
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+	background-color: #222;
+	color: #d3d3d3;
+}
+QPushButton::hover
+{
+	background-color: #34eb55;
+	color: black;
+}
+
+</string>
+        </property>
+        <property name="text">
+         <string>Let's</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QPushButton" name="btnExt">
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+	background-color: #222;
+	color: #d3d3d3;
+}
+QPushButton::hover
+{
+	background-color: #eb34a2;
+	color: black;
+}
+
+</string>
+        </property>
+        <property name="text">
+         <string>Exit</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>480</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
